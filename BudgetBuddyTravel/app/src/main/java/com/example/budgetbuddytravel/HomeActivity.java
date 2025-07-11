@@ -66,7 +66,6 @@ public class HomeActivity extends AppCompatActivity {
                 afficherTousLesVoyages(); // refresh UI
             }
         });
-
         afficherTousLesVoyages();
     }
 
@@ -103,7 +102,7 @@ public class HomeActivity extends AppCompatActivity {
                 tv.setText(contenu.toString());
                 tv.setPadding(0, 16, 0, 16);
                 tv.setOnClickListener(v -> {
-                    Intent intent = new Intent(this, com.example.budgetbuddytravel.utils.DetailVoyageActivity.class);
+                    Intent intent = new Intent(this, DetailVoyageActivity.class);
                     intent.putExtra("fichier", nomFichier);
                     startActivity(intent);
                 });
