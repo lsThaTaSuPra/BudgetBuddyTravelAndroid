@@ -1,11 +1,13 @@
 package com.example.budgetbuddytravel;
 
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.widget.Toast;
 
 import androidx.appcompat.app.ActionBarDrawerToggle;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatDelegate;
 import androidx.appcompat.widget.Toolbar;
 
 import androidx.drawerlayout.widget.DrawerLayout;
@@ -21,6 +23,14 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        // ✅ Appliquer le thème sombre au démarrage
+        SharedPreferences prefs = getSharedPreferences("prefs", MODE_PRIVATE);
+        boolean darkMode = prefs.getBoolean("dark_mode", false);
+
+        AppCompatDelegate.setDefaultNightMode(
+                darkMode ? AppCompatDelegate.MODE_NIGHT_YES : AppCompatDelegate.MODE_NIGHT_NO
+        );
+
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
@@ -47,7 +57,6 @@ public class MainActivity extends AppCompatActivity {
             } else if (id == R.id.nav_settings) {
                 selectedFragment = new ParametresFragment();
             } else if (id == R.id.action_deconnexion) {
-                // Gérer la déconnexion ici
                 getSharedPreferences("BudgetBuddyPrefs", MODE_PRIVATE)
                         .edit()
                         .clear()

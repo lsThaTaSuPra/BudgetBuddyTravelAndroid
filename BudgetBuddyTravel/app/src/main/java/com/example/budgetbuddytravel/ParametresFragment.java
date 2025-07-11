@@ -9,6 +9,8 @@ import android.view.ViewGroup;
 import android.widget.Spinner;
 import android.widget.Switch;
 import android.widget.Toast;
+import androidx.appcompat.app.AppCompatDelegate;
+
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -48,8 +50,12 @@ public class ParametresFragment extends Fragment {
         // Changement mode sombre
         switchDarkMode.setOnCheckedChangeListener((buttonView, isChecked) -> {
             prefs.edit().putBoolean(KEY_DARK_MODE, isChecked).apply();
-            Toast.makeText(getContext(), "Mode sombre " + (isChecked ? "activé" : "désactivé"), Toast.LENGTH_SHORT).show();
-            // Ici tu peux activer un vrai thème plus tard
+
+            AppCompatDelegate.setDefaultNightMode(
+                    isChecked ? AppCompatDelegate.MODE_NIGHT_YES : AppCompatDelegate.MODE_NIGHT_NO
+            );
+
+            requireActivity().recreate(); // recharge l'activité pour appliquer le thème
         });
 
         // Changement langue
