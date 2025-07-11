@@ -28,10 +28,17 @@
     <string name="budget_global">Global budget (€)</string>
     <string name="ajouter_une_cat_gorie">Add category</string>
     <string name="creer_le_voyage">Create trip</string>
-    <string name="parametres">Parameters</string>
     <string name="accueil">Home</string>
     <string name="no_trip_found">No trip found</string>
     <string name="new_category">New category.</string>
     <string name="category_name">Category name.</string>
     <string name="expected_amount">Expected amount</string>
+    <string name="parametres">Settings</string>
+    <string name="langue">Language</string>
+    <string name="activer_le_mode_sombre">Activate dark mode</string>
+    <string-array name="langue_options">
+        <item>Français</item>
+        <item>English</item>
+    </string-array>
+>>>>>>> Stashed changes
 </resources>

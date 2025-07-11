@@ -17,10 +17,29 @@
             android:textStyle="bold"
             android:layout_marginBottom="24dp" />
 
-        <!-- Tu peux ajouter tes options ici, ex: -->
+        <!-- Mode sombre -->
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Option 1 - à personnaliser..." />
+            android:text="@string/activer_le_mode_sombre" />
+
+        <Switch
+            android:id="@+id/switchDarkMode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="32dp" />
+
+        <!-- Sélecteur de langue -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/langue" />
+
+        <Spinner
+            android:id="@+id/spinnerLangue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/langue_options"
+            android:layout_marginTop="8dp" />
     </LinearLayout>
 </ScrollView>

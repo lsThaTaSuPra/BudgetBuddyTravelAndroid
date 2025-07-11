@@ -9,39 +9,11 @@
         android:orientation="vertical"
         android:padding="16dp">
 
-        <!-- SECTION 1 - Catégories de dépenses -->
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/categories_de_depenses"
-            android:textSize="20sp"
-            android:textStyle="bold"
-            android:layout_marginBottom="8dp" />
 
-        <LinearLayout
-            android:id="@+id/layoutCategorie"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical"
-            android:layout_marginBottom="24dp" />
 
-        <!-- SECTION 2 - Détail du voyage -->
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/detail_du_voyage"
-            android:textSize="20sp"
-            android:textStyle="bold"
-            android:layout_marginBottom="8dp" />
 
-        <LinearLayout
-            android:id="@+id/layoutDetailVoyage"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical"
-            android:layout_marginBottom="24dp" />
 
-        <!-- SECTION 3 - Liste des voyages -->
+        <!-- SECTION 1 - Liste des voyages -->
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
