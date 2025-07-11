@@ -13,7 +13,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Catégories de dépenses"
+            android:text="@string/categories_de_depenses"
             android:textSize="20sp"
             android:textStyle="bold"
             android:layout_marginBottom="16dp"/>
@@ -24,7 +24,7 @@
             android:id="@+id/buttonAjouterCategorie"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Ajouter une catégorie" />
+            android:text="@string/ajouter_une_categorie" />
 
     </LinearLayout>
 </ScrollView>

@@ -13,14 +13,14 @@
             android:id="@+id/buttonDeconnexion"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Déconnexion" />
+            android:text="@string/deconnexion" />
 
 
         <!-- SECTION 1 - Catégories de dépenses -->
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Catégories de dépenses"
+            android:text="@string/categories_de_depenses"
             android:textSize="20sp"
             android:textStyle="bold"
             android:layout_marginBottom="8dp" />
@@ -36,7 +36,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Détail du voyage"
+            android:text="@string/detail_du_voyage"
             android:textSize="20sp"
             android:textStyle="bold"
             android:layout_marginBottom="8dp" />
@@ -52,7 +52,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Liste des voyages"
+            android:text="@string/liste_des_voyages"
             android:textSize="20sp"
             android:textStyle="bold"
             android:layout_marginBottom="8dp" />
@@ -70,14 +70,14 @@
             android:id="@+id/buttonNouveauVoyage"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Nouveau voyage" />
+            android:text="@string/nouveau_voyage" />
 
         <!-- Bouton clear les données des voyages -->
         <Button
             android:id="@+id/buttonClearData"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Réinitialiser les données"
+            android:text="@string/reinitialiser_les_donnees"
             android:layout_marginTop="16dp"
             android:backgroundTint="#6A1B9A"
             android:textColor="@android:color/white" />
