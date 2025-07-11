@@ -28,5 +28,7 @@
     <string name="date_de_retour_jj_mm_aaaa">Date de retour (JJ/MM/AAAA)</string>
     <string name="budget_global">Budget global (€)</string>
     <string name="ajouter_une_cat_gorie">Ajouter une catégorie</string>
-    <string name="cr_er_le_voyage">Créer le voyage</string>
+    <string name="creer_le_voyage">Créer le voyage</string>
+    <string name="parametres">Paramètres</string>
+    <string name="accueil">Accueil</string>
 </resources>

@@ -11,7 +11,8 @@
 - Classer les dépenses par catégories (logement, transport, etc.)  
 - Consulter l’historique des dépenses  
 - Visualiser les statistiques budgétaires  
-- Recevoir des alertes en cas de dépassement de budget  
+- Recevoir des alertes en cas de dépassement de budget
+- Changer la langue (via les paramètres du téléphone)
 
 ## Architecture
 
