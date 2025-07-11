@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+        <!-- Bouton se déconnecter -->
+        <Button
+            android:id="@+id/buttonDeconnexion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Déconnexion" />
+
+
+        <!-- SECTION 1 - Catégories de dépenses -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Catégories de dépenses"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp" />
+
+        <LinearLayout
+            android:id="@+id/layoutCategorie"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginBottom="24dp" />
+
+        <!-- SECTION 2 - Détail du voyage -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Détail du voyage"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp" />
+
+        <LinearLayout
+            android:id="@+id/layoutDetailVoyage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginBottom="24dp" />
+
+        <!-- SECTION 3 - Liste des voyages -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Liste des voyages"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp" />
+
+        <LinearLayout
+            android:id="@+id/layoutVoyages"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginBottom="24dp" />
+
+        <!-- Boutons utiles -->
+
+        <Button
+            android:id="@+id/buttonNouveauVoyage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nouveau voyage" />
+
+        <!-- Bouton clear les données des voyages -->
+        <Button
+            android:id="@+id/buttonClearData"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Réinitialiser les données"
+            android:layout_marginTop="16dp"
+            android:backgroundTint="#6A1B9A"
+            android:textColor="@android:color/white" />
+
+    </LinearLayout>
+</ScrollView>
