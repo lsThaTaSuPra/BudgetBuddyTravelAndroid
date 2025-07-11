@@ -50,8 +50,12 @@ public class AuthActivity extends AppCompatActivity {
                 if (user.seConnecter(this)) {
                     Log.d(TAG, "Connexion réussie pour l'email : " + email);
                     Toast.makeText(this, "Connexion réussie !", Toast.LENGTH_SHORT).show();
-                    startActivity(new Intent(AuthActivity.this, HomeActivity.class));
+
+                    Intent intent = new Intent(AuthActivity.this, MainActivity.class);
+                    intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
+                    startActivity(intent);
                     finish();
+
                 } else {
                     Log.d(TAG, "Échec de la connexion : identifiants incorrects.");
                     Toast.makeText(this, "Email ou mot de passe incorrect", Toast.LENGTH_SHORT).show();
