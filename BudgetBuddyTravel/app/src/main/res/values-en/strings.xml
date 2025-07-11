@@ -30,4 +30,8 @@
     <string name="creer_le_voyage">Create trip</string>
     <string name="parametres">Parameters</string>
     <string name="accueil">Home</string>
+    <string name="no_trip_found">No trip found</string>
+    <string name="new_category">New category.</string>
+    <string name="category_name">Category name.</string>
+    <string name="expected_amount">Expected amount</string>
 </resources>

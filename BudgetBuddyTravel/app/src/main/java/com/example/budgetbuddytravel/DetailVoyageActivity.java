@@ -82,18 +82,18 @@ public class DetailVoyageActivity extends AppCompatActivity {
 
     private void showAddCategorieDialog() {
         AlertDialog.Builder builder = new AlertDialog.Builder(this);
-        builder.setTitle("Nouvelle catégorie");
+        builder.setTitle(getString(R.string.new_category));
 
         LinearLayout layout = new LinearLayout(this);
         layout.setOrientation(LinearLayout.VERTICAL);
         layout.setPadding(50, 40, 50, 10);
 
         final EditText inputNom = new EditText(this);
-        inputNom.setHint("Nom de la catégorie");
+        inputNom.setHint(getString(R.string.category_name));
         layout.addView(inputNom);
 
         final EditText inputBudget = new EditText(this);
-        inputBudget.setHint("Budget prévu (€)");
+        inputBudget.setHint(getString(R.string.expected_amount));
         inputBudget.setInputType(android.text.InputType.TYPE_CLASS_NUMBER | android.text.InputType.TYPE_NUMBER_FLAG_DECIMAL);
         layout.addView(inputBudget);
 

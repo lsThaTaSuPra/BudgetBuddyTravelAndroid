@@ -31,4 +31,8 @@
     <string name="creer_le_voyage">Créer le voyage</string>
     <string name="parametres">Paramètres</string>
     <string name="accueil">Accueil</string>
+    <string name="no_trip_found">Aucun voyage trouvé.</string>
+    <string name="new_category">Nouvelle catégorie.</string>
+    <string name="category_name">Nom de la catégorie.</string>
+    <string name="expected_amount">Budget prévu</string>
 </resources>
