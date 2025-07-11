@@ -13,7 +13,7 @@
             android:id="@+id/statsTextView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Statistiques"
+            android:text="@string/statistiques"
             android:textSize="18sp"
             android:textColor="#000000"
             android:padding="8dp"/>

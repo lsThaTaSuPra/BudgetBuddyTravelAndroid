@@ -23,6 +23,6 @@
         android:id="@+id/buttonAjouterCategorie"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Ajouter une catégorie"
+        android:text="@string/ajouter_une_categorie"
         android:layout_margin="16dp" />
 </LinearLayout>
