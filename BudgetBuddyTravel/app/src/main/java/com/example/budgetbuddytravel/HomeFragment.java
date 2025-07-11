@@ -78,7 +78,7 @@ public class HomeFragment extends Fragment {
 
         if (fichiers == null || fichiers.length == 0) {
             TextView tv = new TextView(getActivity());
-            tv.setText("Aucun voyage trouvé.");
+            tv.setText(getString(R.string.no_trip_found));
             layoutVoyages.addView(tv);
             return;
         }
