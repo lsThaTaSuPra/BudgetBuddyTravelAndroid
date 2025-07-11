@@ -8,15 +8,14 @@
         android:layout_height="wrap_content"
         android:orientation="vertical"
         android:padding="16dp">
-<<<<<<< HEAD
+
         <!-- Bouton se déconnecter -->
         <Button
             android:id="@+id/buttonDeconnexion"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/deconnexion" />
-=======
->>>>>>> guillaume
+
 
 
         <!-- SECTION 1 - Catégories de dépenses -->
