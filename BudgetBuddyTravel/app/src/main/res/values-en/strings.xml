@@ -16,9 +16,9 @@
     <string name="categories_de_depenses">Spending category</string>
     <string name="ajouter_une_categorie">Add spending</string>
     <string name="deconnexion">Logout</string>
-    <string name="detail_du_voyage">Travels details</string>
-    <string name="liste_des_voyages">Travels list</string>
-    <string name="nouveau_voyage">New travel</string>
+    <string name="detail_du_voyage">Trip details</string>
+    <string name="liste_des_voyages">trip list</string>
+    <string name="nouveau_voyage">New trip</string>
     <string name="reinitialiser_les_donnees">Clear data</string>
     <string name="statistiques">Statistics</string>
     <string name="nom_du_voyage">Travel name</string>
@@ -27,5 +27,7 @@
     <string name="date_de_retour_jj_mm_aaaa">End date (JJ/MM/AAAA)</string>
     <string name="budget_global">Global budget (€)</string>
     <string name="ajouter_une_cat_gorie">Add category</string>
-    <string name="cr_er_le_voyage">Create travel</string>
+    <string name="creer_le_voyage">Create trip</string>
+    <string name="parametres">Parameters</string>
+    <string name="accueil">Home</string>
 </resources>
